@@ -3,23 +3,22 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
 
 class MyDashBoard extends StatelessWidget {
-  // const MyDashBoard({Key? key}) : super(key: key);
 
   List<Map<String, dynamic>> recomendedList = [
     {
-      'image': 'assets/Images/focus.png',
+      'image': 'assets/images/focus.png',
       'title': 'Focus',
       'subtitle': 'MEDITATION . 3-10 MIN',
       'color': 0xFF91dba1
     },
     {
-      'image': 'assets/Images/happiness.png',
+      'image': 'assets/images/Happiness.png',
       'title': 'Happiness',
       'subtitle': 'MEDITATION . 3-10 MIN',
       'color': 0xFFffc97e
     },
     {
-      'image': 'assets/Images/focus.png',
+      'image': 'assets/images/focus.png',
       'title': 'Focus',
       'subtitle': 'MEDITATION . 3-10 MIN',
       'color': 0xFF91dba1
@@ -50,8 +49,6 @@ class MyDashBoard extends StatelessWidget {
                       child: Container(
                           decoration: BoxDecoration(
                               shape: BoxShape.circle,
-                              // BoxShape.circle or BoxShape.retangle
-                              //color: const Color(0xFF66BB6A),
                               color: Colors.white,
                               boxShadow: [
                                 BoxShadow(
@@ -121,7 +118,7 @@ class MyDashBoard extends StatelessWidget {
                               mainAxisAlignment: MainAxisAlignment.end,
                               children: [
                                 Image.asset(
-                                  'assets/Images/basics.png',
+                                  'assets/images/basics.png',
                                   height: 111,
                                   width: 100,
                                 ),
@@ -143,7 +140,7 @@ class MyDashBoard extends StatelessWidget {
                                         color: Colors.white, fontSize: 12),
                                   ),
                                   SizedBox(
-                                    height: 10,
+                                    height: 1,
                                   ),
                                   Row(
                                     mainAxisAlignment:
@@ -219,7 +216,7 @@ class MyDashBoard extends StatelessWidget {
                                         color: Colors.black, fontSize: 12),
                                   ),
                                   SizedBox(
-                                    height: 10,
+                                    height: 1,
                                   ),
                                   Row(
                                     mainAxisAlignment:
@@ -272,7 +269,7 @@ class MyDashBoard extends StatelessWidget {
                   child: Stack(
                     children: [
                       SvgPicture.asset(
-                        'assets/Images/Group 6802 (2).svg',
+                        'assets/images/Group 6802 (2).svg',
                         // height: 111,
                         width: double.infinity,
                         fit: BoxFit.fitWidth,
@@ -290,6 +287,7 @@ class MyDashBoard extends StatelessWidget {
                                   style: TextStyle(
                                       color: Colors.white,fontWeight: FontWeight.bold, fontSize: 18),
                                 ),
+                                SizedBox(height: 5,),
                                 Text(
                                   'MEDITATION .  3-10 MIN',
                                   style: TextStyle(
