@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'dashboard.dart';
 
 class HomePage extends StatefulWidget {
-  // const homePage({Key? key}) : super(key: key);
 
   @override
   _HomePageState createState() => _HomePageState();
@@ -60,21 +59,18 @@ class _HomePageState extends State<HomePage> {
           BottomNavigationBarItem(
               icon: Image.asset(
                 'assets/images/Meditate.png',
-                // color: Colors.white,
                 height: 20,
               ),
               label: 'Meditation'),
           BottomNavigationBarItem(
               icon: Image.asset(
                 'assets/images/music.png',
-                // color: Colors.white,
                 height: 20,
               ),
               label: 'music'),
           BottomNavigationBarItem(
               icon: Image.asset(
                 'assets/images/afsar.png',
-                // color: Colors.white,
                 height: 20,
               ),
               label: 'Afsar')

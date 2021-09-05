@@ -31,7 +31,6 @@ class MyDashBoard extends StatelessWidget {
     return Scaffold(
       body: Container(
         child: SingleChildScrollView(
-          // scrollDirection: ,
           child: Padding(
             padding: const EdgeInsets.all(18.0),
             child: Column(
@@ -110,7 +109,6 @@ class MyDashBoard extends StatelessWidget {
                             ),
                             borderRadius:
                                 BorderRadius.all(Radius.circular(20))),
-                        // color: Color(0xFF8e97fd),
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
@@ -260,12 +258,7 @@ class MyDashBoard extends StatelessWidget {
                   height: 15,
                 ),
                 Container(
-                  // decoration: BoxDecoration(
                   color: Color(0xff3f414e),
-                  //     border: Border.all(
-                  //       color: Colors.white,
-                  //     ),
-                  //     borderRadius: BorderRadius.all(Radius.circular(20))),
                   child: Stack(
                     children: [
                       SvgPicture.asset(
@@ -354,7 +347,6 @@ class MyDashBoard extends StatelessWidget {
                                     recomendedList[index]['image'].toString()),
                                 height: 100,
                                 width: 120,
-                                // color: Color(0xff78c678)
                               ),
                               Text(
                                 recomendedList[index]['title'].toString(),
